@@ -1,0 +1,498 @@
+/*START*****************afsc.template.css**************/
+/* tells a component to take up the full width of it's container */
+.width-full
+{
+	width: 100%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 1/5 width of it's container */
+.width-onefifth
+{
+	width: 20%;
+    display: inline-block;
+}
+/* tells a component to take up the 2/5 width of it's container */
+.width-twofifths
+{
+	width: 40%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 3/5 width of it's container */
+.width-threefifths
+{
+	width: 60%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 4/5 width of it's container */
+.width-fourfifths
+{
+	width: 80%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 1/4 width of it's container */
+.width-onequarter
+{
+	width: 25%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 1/6 width of it's container */
+.width-onesixth
+{
+	width: 17%;
+    display: inline-block;
+}
+
+/* tells a component to take up the one third width of it's container */
+.width-onethird
+{
+	width: 33%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 1/2 width of it's container */
+.width-half
+{
+	width: 50%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 2/3 width of it's container */
+.width-twothirds
+{
+	width: 67%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 75% width of it's container */
+.width-threequarters
+{
+	width: 75%;
+    display: inline-block;
+}
+
+/* tells a component to take up the 5/6 width of it's container */
+.width-fivesixths
+{
+	width: 83%;
+    display: inline-block;
+}
+
+/* tells a component to have the default amount of padding and spacing on all sides of it. */
+.default-pad-margin
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+/**
+ * Add this class to a parent component to make it a flexbox that aligns things horizontally
+ */
+.flex-box-horizontal
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+/**
+ * This class requires one of the flex-container classes as well.  It will align the content to the beginning of the container.
+ */ 
+.flex-align-start
+{
+	justify-content: flex-start;
+}
+
+
+/**
+ * This class requires one of the flex-container classes as well.  It will align the content to the center of the container.
+ */ 
+.flex-align-end
+{
+	justify-content:  flex-end;
+}
+
+
+
+/*** AFSC Specific CSS ***/
+
+body.agreement {
+  font: 13px Helvetica, Arial, Sans-Serif;
+}
+
+
+/* need to use flexbox instead */
+
+/* Customize some standard elements for AFSC branding */
+
+
+/**  Alignment of Text **/
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+  font: 13px "Trebuchet MS", arial, sans-serif;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 24px;
+  color: #e35e5a;
+}
+
+h2 {
+  font-size: 21px;
+  color: #e35e5a;
+}
+
+h3 {
+  font-size: 18px;
+  color: #e35e5a;
+}
+
+p {}
+
+input,
+select,
+fieldset {
+  border: solid 1px #999999;
+}
+
+textarea {
+  color: #000000;
+}
+
+button {
+  background-color: #e35e5a;
+  border: solid 1px #999999;
+  padding: 3px !important;
+  color: #FFFFFF;
+}
+
+label {
+  color: #000000;
+}
+
+acronym {
+  font-variant: small-caps;
+  border-bottom: dashed 2px;
+}
+
+abbr {
+  border-bottom: dashed 2px;
+}
+
+address {
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+del {
+  color: #8b0000;
+  text-decoration: line-through;
+}
+
+ins {
+  color: #00008b;
+  text-decoration: none;
+}
+
+dfn {
+  border-bottom: double 2px;
+}
+
+kbd {
+  font-family: Consolas, "Courier New", monospace;
+}
+
+blockquote {}
+
+cite {}
+
+code {}
+
+pre {}
+
+samp {}
+
+sub {}
+
+sup {}
+
+var {}
+
+a:link {
+  color: #e35e5a;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #e35e5a;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #aa0000;
+  text-decoration: underline;
+}
+
+dl {
+  font-weight: bold;
+}
+
+dt {
+  margin: 0em;
+}
+
+dd {
+  text-indent: 2em;
+  margin: 0em;
+}
+
+ul {
+  text-indent: 2em;
+  list-style-type: disc
+}
+
+ul.li {
+  text-indent: 2em;
+  list-style-type: disc;
+}
+
+ol {
+  text-indent: 2em;
+  list-style-type: decimal;
+}
+
+ol.li {
+  text-indent: 2em;
+  list-style-type: decimal;
+}
+
+
+/*END*****************afsc_list_tag.template.css**************/
+
+td {
+  vertical-align: top;
+}
+
+#afsc-header-welcome {
+  float: left;
+  color: #e35e5a;
+  letter-spacing: 1px;
+  padding: 6px 4px 0px 12px;
+  font-weight: bold;
+}
+
+
+/**
+ * Defines the style for the area at the top right of the page that contains links for things like
+ * login/logout, Profile settings, etc.
+ */
+
+#afsc-header-nav {
+  float: right;
+  letter-spacing: 1px;
+  padding: 4px 20px 4px 20px;
+  text-align: right;
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  border-top: none;
+}
+
+#afsc-header-nav ul {
+  display: inline;
+  padding: 0px;
+}
+
+#afsc-header-nav li {
+  display: inline;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+
+/**
+ * Additional styling 
+ */
+
+#afsc-header-topbar {
+  height: 30px;
+  background-color: #F1F3E3;
+}
+
+
+/**
+ * Controls the layer of the header that displays the solid color bar under the AFSC Logo.
+ */
+
+.afsc-header-bar {
+  width: 100%;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/banner-bar.gif)repeat;
+}
+
+.afsc-header-logo {
+  clear: left;
+  float: left;
+  padding: 5px 10px 0px 14px;
+}
+
+
+/**
+ * Controls the layer of the header that displays the gradient over top of the background image (i.e. the cows, storm, or pig).
+ */
+
+.afsc-header-bar-gradient {
+  width: 100%;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/banner-gradiant.png)no-repeat;
+  background-position: right top;
+}
+
+#afsc-bodycontent {
+  background-color: white;
+}
+
+.afsc-footer {
+  height: 100%;
+  background-color: #DCBF6A;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+
+#afsc-footer-relative {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+#afsc-footer-fixed {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#afsc-moduletable_image {
+  background: #FFFFFF;
+  padding: 2px;
+  border: solid 1px #BDBDBD;
+}
+
+#afsc-moduletable_footer {
+  background-color: #EDEDED;
+  /* #E3E3E3; */
+  height: 52px;
+  border-bottom: solid 1px #e35e5a;
+  border-top: solid 1px #e35e5a;
+}
+
+#afsc-partners {
+  background: #FFFFFF;
+  padding: 4px;
+  border: solid 1px #999999;
+  float: right;
+  width: 550px !important;
+}
+
+#afsc-partners-inner {
+  border: solid 1px #999999;
+  padding: 10px;
+  float: right;
+  width: 525px !important;
+}
+
+#afsc-partners img {
+  border: none;
+}
+
+.afsc-header-context-bg_385 {
+  width: 100%;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/default_headerBg.jpg)repeat;
+}
+
+
+/**
+ * Renders the context specific image.
+ **/
+
+.afsc-header-context-img_385 {
+  width: 100%;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/default_header.jpg)no-repeat;
+  background-position: right top;
+}
+
+
+/**
+* Renders the context specific image.
+**/
+
+.afsc-header-logo-img_385 {
+  clear: left;
+  float: left;
+  padding: 0px 10px 0px 14px;
+  background: url(../images/AfscLogoTrans.gif)no-repeat;
+  background-position: right top;
+}
+
+.portlet-msg-info {
+  color: #000000;
+  border-color: #000000;
+  border: solid 2px;
+  background: url(../images/info_24.png)#b0e0e6 no-repeat;
+  padding: 3px 3px 3px 30px;
+  background-position: 5px 1px;
+  list-style-type: none;
+  min-height: 20px;
+}
+
+.portletTitle {
+  color: #e35e5a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-div {
+  padding-left: 10em;
+}
