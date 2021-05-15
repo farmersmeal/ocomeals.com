@@ -154,17 +154,17 @@ body {
 
 h1 {
   font-size: 24px;
-  color: #e35e5a;
+  color: #6ac493;
 }
 
 h2 {
   font-size: 21px;
-  color: #e35e5a;
+  color: #6ac493;
 }
 
 h3 {
   font-size: 18px;
-  color: #e35e5a;
+  color: #6ac493;
 }
 
 p {}
@@ -180,7 +180,7 @@ textarea {
 }
 
 button {
-  background-color: #e35e5a;
+  background-color: #6ac493;
   border: solid 1px #999999;
   padding: 3px !important;
   color: #FFFFFF;
@@ -246,12 +246,12 @@ sup {}
 var {}
 
 a:link {
-  color: #e35e5a;
+  color: #6ac493;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #e35e5a;
+  color: #6ac493;
   text-decoration: underline;
 }
 
@@ -302,7 +302,7 @@ td {
 
 #afsc-header-welcome {
   float: left;
-  color: #e35e5a;
+  color: #6ac493;
   letter-spacing: 1px;
   padding: 6px 4px 0px 12px;
   font-weight: bold;
@@ -418,8 +418,8 @@ td {
   background-color: #EDEDED;
   /* #E3E3E3; */
   height: 52px;
-  border-bottom: solid 1px #e35e5a;
-  border-top: solid 1px #e35e5a;
+  border-bottom: solid 1px #6ac493;
+  border-top: solid 1px #6ac493;
 }
 
 #afsc-partners {
@@ -488,7 +488,7 @@ td {
 }
 
 .portletTitle {
-  color: #e35e5a;
+  color: #6ac493;
   font-size: 18px;
   font-weight: bold;
 }
