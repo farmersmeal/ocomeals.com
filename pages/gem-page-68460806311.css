@@ -5593,11 +5593,11 @@
 }
 #m-1602721549247 .main-slider .owl-nav .owl-next:hover,
 #m-1602721549247 .main-slider .owl-nav .owl-prev:hover {
- background: #FFFFFF url(//web.archive.org/web/20210526180403im_/https://d1um8515vdn9kb.cloudfront.net/images/next.png) no-repeat center center;
+ background: #FFFFFF url(./next.png) no-repeat center center;
  background-size: 20px 20px;
 }
 #m-1602721549247 .main-slider .owl-nav .owl-prev:hover {
- background-image: url(//web.archive.org/web/20210526180403im_/https://d1um8515vdn9kb.cloudfront.net/images/prev.png);
+ background-image: url(./prev.png);
 }
 #m-1602721549247 .main-slider .owl-nav .owl-next {
  right: 0px;

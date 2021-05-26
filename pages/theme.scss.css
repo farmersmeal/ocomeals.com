@@ -84,7 +84,7 @@
  display:none
 }
 .slick-loading .slick-list {
- background:#fff url(//web.archive.org/web/20201129135459im_/https://cdn.shopify.com/s/files/1/0328/1823/3484/t/1/assets/ajax-loader.gif?v=4135686330247201572) center center no-repeat
+ background:#fff url(./ajax-loader.gif?v=4135686330247201572) center center no-repeat
 }
 .slick-prev,
 .slick-next {
@@ -2047,7 +2047,7 @@ select,
  -moz-appearance:none;
  appearance:none;
  background-position:right center;
- background-image:url(//web.archive.org/web/20201129135459im_/https://cdn.shopify.com/s/files/1/0328/1823/3484/t/1/assets/ico-select.svg?v=3923620043948533822);
+ background-image:url(./ico-select.svg?v=3923620043948533822);
  background-repeat:no-repeat;
  background-position:right 10px center;
  line-height:1.2;
